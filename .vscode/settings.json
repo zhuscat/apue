@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.html": "html",
+    "random": "cpp",
+    "*.ipp": "cpp",
+    "__locale": "cpp",
+    "fstream": "cpp",
+    "locale": "cpp"
+  }
+}
