@@ -1,7 +1,8 @@
-#include "../common.h"
+#include <stdio.h>
+#include <unistd.h>
 
 int
 main(void)
 {
-    printf("palyground\n");
+    printf("%d\n", isatty(STDIN_FILENO));
 }

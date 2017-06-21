@@ -124,7 +124,7 @@ void err_sys(const char *fmt, ...) __attribute__((noreturn));
 
 void err_cont(int error, const char *fmt, ...);
 
-void err_exit(int error, const char *fmt, ...) __attribute__((noreturn));
+void err_exit(int error, const char *fmt, ...);
 
 void err_dump(const char *fmt, ...) __attribute__((noreturn));
 
